@@ -1,0 +1,24 @@
+{
+  "as_of": "2026-10-12T09:00:00",
+  "org": "SAMPLE Harbor Print & Cafe",
+  "trust_packet": {
+    "shop_cafe": "ok_bind",
+    "shop_salon": "ok_bind",
+    "shop_hvac": "ok_bind",
+    "shop_bookshop": "ok_bind",
+    "exception_count": 0
+  },
+  "covergap": {
+    "shop_cafe": "excluded_ai",
+    "shop_salon": "narrow_exclude",
+    "shop_hvac": "excluded_ai",
+    "shop_bookshop": "ok_bind",
+    "exception_count": 3
+  },
+  "notes": [
+    "shop_cafe has CG 40 47 plus marketing AI (Toast IQ + Managerbot) -> excluded_ai.",
+    "shop_salon has only CG 40 48 plus marketing AI -> narrow_exclude.",
+    "shop_hvac has absolute AI exclusion plus Jobber Teammate ops AI -> excluded_ai.",
+    "shop_bookshop has CG 40 47 but empty AI inventory -> ok_bind."
+  ]
+}

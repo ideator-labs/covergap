@@ -1,0 +1,95 @@
+{
+  "org": "SAMPLE Harbor Print & Cafe",
+  "note": "Fictional multi-shop renewal packet. Not a real business. All shops, forms, and AI tools invented for demo.",
+  "as_of": "2026-10-12T09:00:00",
+  "shops": [
+    {
+      "shop_id": "shop_cafe",
+      "shop_name": "Harbor Cafe"
+    },
+    {
+      "shop_id": "shop_salon",
+      "shop_name": "Harbor Salon"
+    },
+    {
+      "shop_id": "shop_hvac",
+      "shop_name": "Harbor HVAC"
+    },
+    {
+      "shop_id": "shop_bookshop",
+      "shop_name": "Harbor Bookshop"
+    }
+  ],
+  "endorsements": [
+    {
+      "shop_id": "shop_cafe",
+      "form_number": "CG 40 47",
+      "title": "Exclusion - Violation of Statutes in Connection with Artificial Intelligence",
+      "kind": "cg4047"
+    },
+    {
+      "shop_id": "shop_cafe",
+      "form_number": "CG 00 01",
+      "title": "Commercial General Liability Coverage Form",
+      "kind": "other"
+    },
+    {
+      "shop_id": "shop_salon",
+      "form_number": "CG 40 48",
+      "title": "Limited Exclusion - Personal and Advertising Injury - Artificial Intelligence",
+      "kind": "cg4048"
+    },
+    {
+      "shop_id": "shop_salon",
+      "form_number": "CG 00 01",
+      "title": "Commercial General Liability Coverage Form",
+      "kind": "other"
+    },
+    {
+      "shop_id": "shop_hvac",
+      "form_number": "AI-EXCL-ABS-01",
+      "title": "Absolute AI Exclusion - Carrier Endorsement",
+      "kind": "absolute"
+    },
+    {
+      "shop_id": "shop_hvac",
+      "form_number": "CG 00 01",
+      "title": "Commercial General Liability Coverage Form",
+      "kind": "other"
+    },
+    {
+      "shop_id": "shop_bookshop",
+      "form_number": "CG 40 47",
+      "title": "Exclusion - Violation of Statutes in Connection with Artificial Intelligence",
+      "kind": "cg4047"
+    },
+    {
+      "shop_id": "shop_bookshop",
+      "form_number": "CG 00 01",
+      "title": "Commercial General Liability Coverage Form",
+      "kind": "other"
+    }
+  ],
+  "ai_uses": [
+    {
+      "shop_id": "shop_cafe",
+      "tool": "Toast IQ Reviews Agent",
+      "category": "marketing"
+    },
+    {
+      "shop_id": "shop_cafe",
+      "tool": "Square Managerbot",
+      "category": "marketing"
+    },
+    {
+      "shop_id": "shop_salon",
+      "tool": "Social copy assistant",
+      "category": "marketing"
+    },
+    {
+      "shop_id": "shop_hvac",
+      "tool": "Jobber Teammate",
+      "category": "ops"
+    }
+  ]
+}
